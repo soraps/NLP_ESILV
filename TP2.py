@@ -131,3 +131,5 @@ st.write(f"Accuracy: {accuracy*100:.2f}%")
 st.subheader("Classification Report")
 report = classification_report(y_test, y_pred)
 st.write(report)
+
+
